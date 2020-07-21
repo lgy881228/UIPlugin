@@ -8,7 +8,7 @@
 
 #import "xengine__module_BaseModule.h"
 #import "JSONToDictionary.h"
-#import "DWKWebView.h"
+#import <dsbridge/dsbridge.h>
 #import "Unity.h"
 #import "LSRFramework.h"
 #import "MBProgressHUD+Toast.h"
