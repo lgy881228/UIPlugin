@@ -13,6 +13,7 @@
 #import "Stack.h"
 #import <pthread.h>
 #import "xengine__module_BaseModule.h"
+#import "XEngineSDK.h"
 @interface WebViewPool ()
 @property (nonatomic, strong) dispatch_queue_t myQueue;
 @property (nonatomic, strong) Stack* stack;
