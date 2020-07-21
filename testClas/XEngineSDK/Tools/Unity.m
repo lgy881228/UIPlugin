@@ -8,6 +8,7 @@
 
 #import "Unity.h"
 #import "NSString+Extras.h"
+#import <objc/runtime.h>
 @implementation Unity
 + (NSString *)getAppKey:(NSString *)appSecret MicroApp:(NSString *)microApp
 {
