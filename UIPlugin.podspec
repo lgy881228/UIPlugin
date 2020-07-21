@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
 
  
   s.name         = "UIPlugin"
-  s.version      = "1.0.9"
+  s.version      = "1.0.11"
   s.summary      = "网络请求 LSRNetworking."
 
    s.description  = <<-DESC
@@ -29,13 +29,13 @@ Pod::Spec.new do |s|
 :tag => s.version.to_s }
 
 
-  s.source_files  = "testClas/XEngineSDK/**/*.{h,m}","testClas/XEngineSDK/*.{h,m}","testClas/XEngineSDK/**/MBProgressHUD/*.{h,m}"
-  s.public_header_files = "testClas/XEngineSDK/*.h","testClas/XEngineSDK/*.h","testClas/XEngineSDK/**/MBProgressHUD/*.h"
-  s.dependency 'AFNetworking','~> 4.0'
-  s.dependency 'SSZipArchive'
-  s.dependency 'JSONModel'
-  s.dependency 'LSRFramework'
-  s.frameworks  = "UIKit","AVFoundation","Foundation","CoreServices","SSZipArchive","AFNetworking","JSONModel",'LSRFramework'
+  s.source_files  = "testClas/*.{h,m}"
+  s.public_header_files = "testClas/*.h"
+  #s.dependency 'AFNetworking','~> 4.0'
+ # s.dependency 'SSZipArchive'
+  #s.dependency 'JSONModel'
+ # s.dependency 'LSRFramework'
+  s.frameworks  = "UIKit","AVFoundation","Foundation","CoreServices"
 
   s.pod_target_xcconfig = {'CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES' => 'YES'}
 
