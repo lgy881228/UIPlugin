@@ -9,6 +9,7 @@
 #import "Unity.h"
 #import "NSString+Extras.h"
 #import <objc/runtime.h>
+
 @implementation Unity
 + (NSString *)getAppKey:(NSString *)appSecret MicroApp:(NSString *)microApp
 {
@@ -31,7 +32,7 @@
     {
         if ([self.rootViewController isKindOfClass:TabBarController.class])
         {
-            TabBarController *tabBarController = (TabBarController *)self.rootViewController;
+            UITabBarController *tabBarController = (UITabBarController *)self.rootViewController;
             topViewController = tabBarController.selectedViewController;
             
             if ([topViewController isKindOfClass:UINavigationController.class])

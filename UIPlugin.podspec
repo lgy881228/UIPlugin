@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
 
  
   s.name         = "UIPlugin"
-  s.version      = "1.0.5"
+  s.version      = "1.0.6"
   s.summary      = "网络请求 LSRNetworking."
 
    s.description  = <<-DESC
