@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface __xengine__module_UIModule : xengine__module_BaseModule
+@interface xengine__module_UIModule : xengine__module_BaseModule
 
 @end
 

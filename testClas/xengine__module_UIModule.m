@@ -6,10 +6,10 @@
 //  Copyright © 2020 edz. All rights reserved.
 //
 
-#import "__xengine__module_UIModule.h"
+#import "xengine__module_UIModule.h"
 #import "JSONToDictionary.h"
 #import "Unity.h"
-@implementation __xengine__module_UIModule
+@implementation xengine__module_UIModule
 #pragma mark - HUD
 - (NSString *)moduleId
 {
