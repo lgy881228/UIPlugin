@@ -7,7 +7,7 @@
 //
 
 #import "MBProgressHUD+Toast.h"
-
+#import "Unity.h"
 @implementation MBProgressHUD (Toast)
 + (MBProgressHUD *)showToastWithTitle:(NSString *)title image:(UIImage *)image time:(NSTimeInterval)time
 {
