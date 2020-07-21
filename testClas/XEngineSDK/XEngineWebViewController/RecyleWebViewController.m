@@ -12,6 +12,7 @@
 #import "RecyleWebViewController.h"
 #import "WebViewPool.h"
 #import <Masonry/Masonry.h>
+#import "DWKWebView.h"
 #define kIPHONEX                ( [UIScreen mainScreen].bounds.size.height > 736)            // 设备6p 6sp 7p 高度
 
 #define kNavigationH            (CGFloat)(kIPHONEX?(88):(64))
