@@ -30,7 +30,7 @@
     UIViewController *topViewController = nil;
     if (self.rootViewController)
     {
-        if ([self.rootViewController isKindOfClass:TabBarController.class])
+        if ([self.rootViewController isKindOfClass:UITabBarController.class])
         {
             UITabBarController *tabBarController = (UITabBarController *)self.rootViewController;
             topViewController = tabBarController.selectedViewController;
